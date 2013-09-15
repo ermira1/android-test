@@ -10,7 +10,7 @@ import android.widget.Button;
 public class MainActivityLayoutTest extends
 		ActivityInstrumentationTestCase2<MainActivity> {
 	private Button addButton;  
-	   private Button mapButton;  
+	    
 	   private View mainLayout;  
 
 	public MainActivityLayoutTest() {
@@ -21,8 +21,7 @@ public class MainActivityLayoutTest extends
 		super.setUp();
 		MainActivity mainActivity = getActivity();  
 	       addButton = (Button) mainActivity.findViewById(R.id.button1);  
-	       mapButton = (Button) mainActivity  
-	               .findViewById(R.id.button2);  
+	       
 	       mainLayout = (View) mainActivity.findViewById(R.id.tableRow1);  
 	}
 	
